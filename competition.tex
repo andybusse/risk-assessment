@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage{url, booktabs,pdflscape}
+\title{Student Robotics Competition Risk Assessment Form}
+
+\begin{document}
+\maketitle
+
+\begin{description}
+\item[Activity being assessed:] Student Robotics Competition 2012 (14/04/2012, 15/04/2012)
+\item[Location:] Garden Court, Building 40, Highfield Campus, University of Southampton (\url{http://data.southampton.ac.uk/building/40.html})
+\item[Who is exposed to the hazard:] Competitors, Teachers, Mentors
+\end{description}
+
+\begin{description}
+\item[Assessor's name:]
+\item[Assessor's job title:]
+\item[Assessor's signature:]
+\item[Date of assessment:]
+\end{description}
+\clearpage
+
+\newcommand{\risk}[4]{
+\subsection{#1}
+\begin{description}
+  \item[Hazard] #2
+  \item[Control measures] #3
+  \item[Risk rating] #4
+\end{description}
+}
+
+\section{Risks}
+The following risks have been considered for the student robotics competition.  Further description of the meaning of risk ratings (presented in this section as $L \times S$) can be found in the next section.
+
+\risk{Cable Trip Hazards}
+{Electrical extension cable trip hazard}
+{Cables taped down, kept near walls where practical.}
+{2}
+
+\risk{Injury Using Tools}
+{Injury while using power or manual tools}
+{Teachers to supervise all use of tools given that teams bring their own. These tools are used at the teams own risk. Student Robotics will not provide tools at the competition.}
+{3}
+
+\risk{Electrocution}
+{Electrocution by contact between water, electrical output and human}
+{Water and electrical outputs kept strictly apart. Food and Drink is not allowed in the pit areas (i.e. places where teams work on their robots), or around the arena.}
+{3}
+
+\risk{Fire}
+{Risk of Fire}
+{No naked flames are allowed to be used intentionally. If a fire breaks out accidentally, SUSU regulations will be followed as described here: \url{http://about.susu.org/downloads-file-44.html}}
+{2}
+
+\risk{Interaction with Robots}
+{Interaction with robots: electric shock, minor injury.}
+{Competitors are only allowed into the arena with a mentor present, but may only work on robots in their pits. Robots may only be tested under supervision if robot safety rules are met (see rulebook 2.10-2.14, 2.16, 2.17). Electronics provided by Student Robotics are housed in a plastic casing, and wiring will be inspected by a member of Student Robotics before competitors are allowed to work on their robots.  Rulebook: \url{https://www.studentrobotics.org/resources/2012/rulebook.pdf}}
+{1}
+
+\risk{Batteries}
+{Misuse of batteries (minor injury)}
+{See rules 2.16, 2.17. Batteries must only be charged as described here:
+\url{https://www.studentrobotics.org/docs/kit/batteries}}
+{2}
+
+\begin{landscape}
+
+\section{Assessment Guidance}
+
+The risk ratings of the risks in the previous section are calculated by multiplying $L$, the liklihood rating, by $S$, the severity rating.
+
+\bigskip
+\begin{minipage}[b]{0.5\linewidth}
+\begin{tabular}[c]{lc}
+  \toprule
+  \textbf{Liklihood} & \textbf{Liklihood rating} \\
+  \midrule
+  Very unlikely & 1 \\
+  Unlikely & 2 \\
+  Likely & 3 \\
+  Fairly likely & 4 \\
+  Very likely & 5 \\
+  \bottomrule
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{0.5\linewidth}
+\begin{tabular}[c]{lc}
+  \toprule
+  \textbf{Severity} & \textbf{Severity rating} \\
+  \midrule
+  First Aid injury/illness & 1 \\
+  Minor injury/illness & 2 \\
+  `3 day' injury/illness & 3 \\
+  Major injury/illness & 4 \\
+  Fatality/disabling injury & 5 \\
+  \bottomrule
+\end{tabular}
+\end{minipage}
+\bigskip
+
+The following should be used to rate the risk and plan corrective action:
+\bigskip
+\newcommand{\riskinfo}[4]{
+  #1 & #2 & #3 & #4 \\
+}
+
+\begin{tabular*}{\linewidth}[c]{cccp{33em}}
+  \toprule
+  \textbf{Risk Rating} & \textbf{Category} & \textbf{Tolerability} & \textbf{Comments} \\
+  \midrule
+
+  \riskinfo{1--2}{Very Low}{Acceptable}
+  {No further action is necessary other than to ensure that the controls are maintained.}
+
+  \riskinfo{3--4}{Low}{Acceptable}
+  {No additional controls are required unless they can be implemented at very low cost (in terms of time, money and effort).}
+
+  \riskinfo{5--7}{Medium}{Tolerable}
+  {Consideration should be given as to whether the risks can be lowered, where applicable, to a tolerable level, and preferably acceptable level, but the costs of additional risk reduction measures should be taken into account.  The risk reduction measures should be implemented within a defined time period.}
+
+  \riskinfo{8--14}{High}{Tolerable}
+  {Substantial efforts should be made to reduce the risk.  Risk reduction measures should be implemented urgently within a defined time period and it might be necessary to consider suspending or restricting the activity, or to apply interim risk control measures, until this has been completed. Considerable resources might have to be allocated to additional control measures.}
+  
+  \riskinfo{15 and above}{Very High}{Unacceptable}
+  {Substantial improvements in risk control are necessary, so that risk is reduced to a tolerable or acceptable level.}
+
+  \bottomrule
+\end{tabular*}
+  
+\end{landscape}
+
+\clearpage
+\appendix
+\section{Fire Safety and Emergency Procedures}
+\textit{From SUSU Health and Safety policy -- August 2005}
+
+\subsection{Action in the event of fire}
+If you notice a fire you should immediately raise the alarm by breaking the glass of the nearest manual fire alarm call point. This can be done by removing the cap and using your elbow or shoe. The alarm is a continuous bell. On hearing this, you should immediately leave the building by the quickest route, closing doors as you leave. In the event of the fire alarm being raised persons should leave the building by the nearest safe route and should never use the lift. On leaving the building, you should assemble on the grass area outside West Building (Building 40).
+
+Fire extinguishing equipment is provided in the Union but should only be used: 
+\begin{enumerate}
+\item by those trained in its use - the Union encourages members of staff to attend a fire extinguisher training course, run by the Safety Office, within the first twelve months of employment and thereafter every three years
+\item if the fire is very small 
+\item if by so doing you do not place yourself in any danger 
+\item after raising the alarm and ensuring that the fire and rescue services have been called 
+\end{enumerate}
+
+               
+\subsection{Calling the Fire and Rescue Services}
+On discovering a fire within Building 57 (Retail Centre), Building 42 (Students’ Union) or 
+Building 40 (West Building) the alarm should be sounded as soon as possible. Once the 
+fire alarm has been sounded the Receptionist or Porter on duty will call the fire and 
+rescue services. The alarm systems in these buildings are connected direct to the 
+University Maintenance Control Centre (MCC), who will thus be alerted. 
+
+
+\end{document}
+
