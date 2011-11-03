@@ -19,48 +19,47 @@
 \end{description}
 \clearpage
 
-\newcommand{\risk}[4]{
-\subsection{#1}
-\begin{description}
-  \item[Hazard] #2
-  \item[Control measures] #3
-  \item[Risk rating] #4
-\end{description}
+\newcommand{\risk}[3]{
+ #1 & #2 & #3 \\
 }
 
+\begin{landscape}
 \section{Risks}
 The following risks have been considered for the student robotics competition.  Further description of the meaning of risk ratings (presented in this section as $L \times S$) can be found in the next section.
 
-\risk{Cable Trip Hazards}
-{Electrical extension cable trip hazard}
+\bigskip
+\begin{tabular*}{\linewidth}[c]{p{14em}p{30em}c}
+\toprule
+\textbf{Hazard} & \textbf{Control Measures} & \textbf{Risk Rating} \\
+\midrule
+
+\risk{Electrical extension cable trip hazard}
 {Cables taped down, kept near walls where practical.}
 {2}
 
-\risk{Injury Using Tools}
-{Injury while using power or manual tools}
+\risk{Injury while using power or manual tools}
 {Teachers to supervise all use of tools given that teams bring their own. These tools are used at the teams own risk. Student Robotics will not provide tools at the competition.}
 {3}
 
-\risk{Electrocution}
-{Electrocution by contact between water, electrical output and human}
+\risk{Electrocution by contact between water, electrical output and human}
 {Water and electrical outputs kept strictly apart. Food and Drink is not allowed in the pit areas (i.e. places where teams work on their robots), or around the arena.}
 {3}
 
-\risk{Fire}
-{Risk of Fire}
+\risk{Risk of Fire}
 {No naked flames are allowed to be used intentionally. If a fire breaks out accidentally, SUSU regulations will be followed as described here: \url{http://about.susu.org/downloads-file-44.html}}
 {2}
 
-\risk{Interaction with Robots}
-{Interaction with robots: electric shock, minor injury.}
+\risk{Interaction with robots: electric shock, minor injury.}
 {Competitors are only allowed into the arena with a mentor present, but may only work on robots in their pits. Robots may only be tested under supervision if robot safety rules are met (see rulebook 2.10-2.14, 2.16, 2.17). Electronics provided by Student Robotics are housed in a plastic casing, and wiring will be inspected by a member of Student Robotics before competitors are allowed to work on their robots.  Rulebook: \url{https://www.studentrobotics.org/resources/2012/rulebook.pdf}}
 {1}
 
-\risk{Batteries}
-{Misuse of batteries (minor injury)}
+\risk{Misuse of batteries}
 {See rules 2.16, 2.17. Batteries must only be charged as described here:
 \url{https://www.studentrobotics.org/docs/kit/batteries}}
 {2}
+
+\end{tabular*}
+\end{landscape}
 
 \begin{landscape}
 
