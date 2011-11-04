@@ -12,5 +12,8 @@ tech-day-soton.pdf: assessment-guidance.tex
 
 .PHONY: clean
 
-clean:
-	-rm -f competition.pdf tech-day-soton.pdf
+tidy:
+	-rm -f `cat .gitignore | grep -v pdf`
+
+clean: tidy
+	-rm -f competition.pdf
