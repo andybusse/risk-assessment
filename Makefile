@@ -4,5 +4,8 @@ competition.pdf: competition.tex
 
 .PHONY: clean
 
-clean:
+tidy:
+	-rm -f `cat .gitignore | grep -v pdf`
+
+clean: tidy
 	-rm -f competition.pdf
