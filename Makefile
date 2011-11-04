@@ -6,9 +6,9 @@
 
 all: competition.pdf tech-day-soton.pdf
 
-competition.pdf:
+competition.pdf: assessment-guidance.tex
 
-tech-day-soton.pdf:
+tech-day-soton.pdf: assessment-guidance.tex
 
 .PHONY: clean
 
