@@ -1,4 +1,6 @@
 
+all: competition.pdf tech-day-soton.pdf
+
 competition.pdf: competition.tex
 	pdflatex $<
 
