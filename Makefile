@@ -1,9 +1,14 @@
+.SUFFIXES: .pdf .tex
 
-competition.pdf: competition.tex
+# How to convert a .tex into a .pdf
+.tex.pdf:
 	pdflatex $<
 
-tech-day-soton.pdf: tech-day-soton.tex
-	pdflatex $<
+all: competition.pdf tech-day-soton.pdf
+
+competition.pdf: assessment-guidance.tex
+
+tech-day-soton.pdf: assessment-guidance.tex
 
 .PHONY: clean
 
