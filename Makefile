@@ -4,13 +4,15 @@
 .tex.pdf:
 	pdflatex $<
 
-all: competition.pdf tech-day-soton.pdf kickstart.pdf
+all: competition.pdf tech-day-soton.pdf kickstart.pdf schools.pdf
 
 competition.pdf: assessment-guidance.tex
 
 tech-day-soton.pdf: assessment-guidance.tex
 
 kickstart.pdf: assessment-guidance.tex
+
+schools.pdf: assessment-guidance.tex
 
 .PHONY: clean
 

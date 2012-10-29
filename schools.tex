@@ -1,0 +1,76 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage{url, booktabs,pdflscape}
+\usepackage[final]{pdfpages}
+\usepackage[colorlinks]{hyperref}
+\title{Student Robotics Kickstart Risk Assessment Form}
+
+\begin{document}
+\maketitle
+
+\begin{description}
+\item[Activity being assessed:] General Use of Student Robotics' Kit
+\item[Location:] Schools, Colleges, etc.
+\item[Who is exposed to the hazard:] Competitors, Teachers, Mentors
+\end{description}
+
+\begin{description}
+\item[Assessor's name:]
+\item[Assessor's job title:]
+\item[Assessor's signature:]
+\item[Date of assessment:]
+\end{description}
+\clearpage
+
+\newcommand{\risk}[3]{
+ #1 & #2 & #3 \\
+}
+
+\begin{landscape}
+\section{Risks}
+The following risks have been considered for unsupervised use of Student
+Robotics Kit.  Further description of the meaning of risk ratings (presented in this section as $L \times S$) can be found in the next section.
+
+A safety briefing about use of Student Robotics kit is given at Kickstart.
+This safety information, and instructions on use of our kit is also available on
+our website (\url{https://www.studentrobotics.org/docs/kit}). It is advised that
+a responsible adult supervises use of Student Robotics kit when used in school.
+
+This risk assessment does not cover activities such as metalwork or woodwork,
+which should be covered by institution-specific risk assessments.
+
+\bigskip
+\begin{tabular*}{\linewidth}[c]{p{14em}p{30em}c}
+\toprule
+\textbf{Hazard} & \textbf{Control Measures} & \textbf{Risk Rating} \\
+\midrule
+
+\risk{Misuse of Batteries}
+{If mishandled/misused, the batteries can explode or catch fire. Clear
+instructions on battery charging and safe battery handling are available at our
+website. To mitigate risk of fire during charging and in storage, fireproof bags
+are provided. It is advised any batteries showing signs of bulging are disposed
+of.}
+{4}
+
+\risk{Irritation due to loose fibres in Charging Bags}
+{Some charging bags distributed with this years kit, used to mitigate risk of
+fire during storage and charging, contain loose fibreglass fibres which may
+cause minor skin irritation. Use of gloves is advised when using these bags.}
+{2}
+
+\risk{Interaction with robots: electric shock, minor injury}
+{Minor injury may be caused when testing unfinished/prototype robots which may
+not meet Student Robotics' safety guidelines. It is strongly advised that for
+any testing, the power switch is easily accessible, and that the battery is
+safely and securely attached to the robot. Before testing a robot, all occupants
+of the room should be made aware.}
+{1}
+
+\bottomrule
+\end{tabular*}
+\end{landscape}
+
+\input{assessment-guidance}
+
+\end{document}
+
